@@ -14,12 +14,12 @@ export default {
   data() {
     return {
       portfolio: [
-        { img: "/src/images/firstSite.png", name: "Flower Mantap" },
-        { img: "/src/images/secondSite.png", name: "Puma" },
-        { img: "/src/images/thrdSite.png", name: "Food Market" },
-        { img: "/src/images/fourthSite.png", name: "Rise Creative" },
-        { img: "/src/images/fifthSite.png", name: "NFT" },
-        { img: "/src/images/sixSite.png", name: "Night Trips" },
+        { img: "../images/firstSite.png", name: "Flower Mantap" },
+        { img: "../images/secondSite.png", name: "Puma" },
+        { img: "../images/thrdSite.png", name: "Food Market" },
+        { img: "../images/fourthSite.png", name: "Rise Creative" },
+        { img: "../images/fifthSite.png", name: "NFT" },
+        { img: "../images/sixSite.png", name: "Night Trips" },
       ],
     };
   },

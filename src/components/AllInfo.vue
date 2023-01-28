@@ -31,7 +31,7 @@ export default {
       23 years old, Astana
     </h4>
     <p class="header__Eng">Ru | Eng | Cn</p>
-    <img class="header__Photo" src="../images/ResumePhoto.jpg" alt="da" />
+    <img class="header__Photo" src="../images/ResumePhoto.jpg" alt="userPhoto" />
   </header>
   <main class="main">
     <About />
