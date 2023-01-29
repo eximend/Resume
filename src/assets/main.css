@@ -84,14 +84,14 @@ h4 {
 
 .main__About {
   margin-top: 104px;
-  height: 556px;
+  /* height: 556px; */
   width: 1445px;
   background: #f6f6f6;
   border-radius: 5px;
 }
 
 .main__About h2 {
-  padding-top: 80px;
+  padding-top: 60px;
   margin-left: 645px;
   font-size: 34px;
   line-height: 42px;
@@ -100,10 +100,10 @@ h4 {
 .main__About p {
   font-size: 18px;
   line-height: 22px;
-  width: 485px;
-  height: 32px;
-  margin-left: 480px;
-  margin-top: 48px;
+  width: 605px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -194,7 +194,7 @@ text-decoration-line: underline;
 .Contacts{
   margin-top: 54px;
   width: 1445px;
-  height: 352px;
+  height: 318px;
 }
 
 .Contacts h2{
@@ -234,6 +234,6 @@ text-decoration-line: underline;
 }
 
 .contactIcons{
-  width: 55px;
-  height: 55px;
+  width: 35px;
+  height: 35px;
 }

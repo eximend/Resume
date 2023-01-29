@@ -34,7 +34,7 @@ export default {
     <img class="header__Photo" src="../images/ResumePhoto.jpg" alt="userPhoto" />
   </header>
   <main class="main">
-    <About />
+    <About/>
     <WorkPrograms />
     <Portfolio />
     <Contact />
