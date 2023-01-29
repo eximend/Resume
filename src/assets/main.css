@@ -83,8 +83,7 @@ h4 {
 /* Main */
 
 .main__About {
-  margin-top: 104px;
-  /* height: 556px; */
+  margin-top: 70px;
   width: 1445px;
   background: #f6f6f6;
   border-radius: 5px;
@@ -112,7 +111,7 @@ h4 {
 .Skills {
   height: 450px;
   width: 1445px;
-  padding-top: 91px;
+  padding-top: 81px;
 }
 
 .Skills h2 {
