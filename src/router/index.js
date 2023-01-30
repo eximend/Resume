@@ -19,7 +19,7 @@ import PortfolioRu from "../components/ComponentsRu/PortfolioRu.vue";
 // CnVersion
 
 import AboutCn from "../components/ComponentsCn/AboutCn.vue";
-import AllInfoCn from "../components/ComponentsCn/AllInfoCn.vue";
+import AllInfoCn from "../components/ComponentsCn/AllinfoCn.vue";
 import ContactsCn from "../components/ComponentsCn/ContactsCn.vue";
 import WorkProgramCn from "../components/ComponentsCn/WorkProgramsCn.vue";
 import PortfolioCn from "../components/ComponentsCn/PortfolioCn.vue";
