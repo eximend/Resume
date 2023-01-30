@@ -11,7 +11,7 @@ import WorkProgram from "../components/WorkPrograms.vue";
 // RuVersion
 
 import AboutRu from "../components/ComponentsRu/AboutRu.vue";
-import AllInfoRu from "../components/ComponentsRu/AllInfoRu.vue";
+import AllInfoRu from "../components/ComponentsRu/AllinfoRu.vue";
 import ContactsRu from "../components/ComponentsRu/ContactsRu.vue";
 import WorkProgramRu from "../components/ComponentsRu/WorkProgramsRu.vue";
 import PortfolioRu from "../components/ComponentsRu/PortfolioRu.vue";
