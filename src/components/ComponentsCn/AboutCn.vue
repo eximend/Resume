@@ -1,6 +1,6 @@
 <template >
     <div class="main__About">
-        <h2>关于我</h2>
+        <h2 class="aboutCnh2">关于我</h2>
         <p v-for="txt in aboutInfo">{{ txt.text }}</p>
     </div>
 </template>
@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style scoped>
-.main__About h2 {
+.aboutCnh2 {
   padding-top: 60px;
   margin-left: 680px;
   font-size: 34px;
