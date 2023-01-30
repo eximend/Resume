@@ -8,6 +8,28 @@
   font-family: "Roboto Slab";
 }
 
+.langChanger{
+  position: absolute;
+  top: 175px;
+  left: 1146px;
+  font-size: 17px;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  cursor: pointer;
+  transform: rotate(-90deg);
+}
+
+.lang__links{
+  color: black;
+  z-index: 3;
+}
+.lang__links:hover{
+  opacity: 0.5;
+  transition: .3s;
+}
+
 #app {
   width: 1445px;
   margin: 0 auto;
@@ -16,7 +38,7 @@
 .header {
   width: 1445px;
   width: inherit;
-  height: 968px;
+  height: 958px;
 }
 
 .header__ul {
@@ -63,27 +85,18 @@ h4 {
   font-weight: 400;
 }
 
-.header__Eng {
-  margin-left: 928px;
-  margin-top: -249px;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 900;
-  transform: rotate(270deg);
-}
 
 .header__Photo {
   width: 943.61px;
   height: 737px;
   margin-left: 250px;
-  margin-top: 296px;
+  margin-top: 76px;
   border-radius: 5px;
 }
 
 /* Main */
 
 .main__About {
-  margin-top: 70px;
   width: 1445px;
   background: #f6f6f6;
   border-radius: 5px;
@@ -91,9 +104,9 @@ h4 {
 
 .main__About h2 {
   padding-top: 60px;
-  margin-left: 645px;
+  margin-left: 660px;
   font-size: 34px;
-  line-height: 42px;
+  line-height: 45px;
 }
 
 .main__About p {
