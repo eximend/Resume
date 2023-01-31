@@ -249,3 +249,235 @@ text-decoration-line: underline;
   width: 35px;
   height: 35px;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .langChanger{
+   margin: 0 auto;
+   display: none;
+  }
+  
+  .lang__links{
+    color: black;
+    z-index: 3;
+  }
+  .lang__links:hover{
+    opacity: 0.5;
+    transition: .3s;
+  }
+  
+  #app {
+    width: 375px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    width: 375px;
+    height: 736px;
+  }
+  
+  .header__ul {
+    display: none;
+    margin: 0 auto;
+    margin-top: 32px;
+    width: 941px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    gap: 218px;
+  }
+  
+  .linker{
+    display: none;
+    position: absolute;
+    color: #828282;
+    font-size: 18px;
+  }
+  
+  hr {
+    display: none;
+  }
+  
+  h1 {
+    margin-left: 26px;
+    margin-top: 65px;
+    width: 124px;
+  }
+  
+  h4 {
+    margin-left: 28px;
+    margin-top: 23px;
+    font-weight: 400;
+  }
+  
+  
+  .header__Photo {
+    width: 316px;
+    height: 478px;
+    margin-left: 29px;
+    margin-top: 36px;
+    border-radius: 5px;
+  }
+  
+  /* Main */
+  
+  .main__About {
+    width: 375px;
+    background: #f6f6f6;
+    border-radius: 5px;
+    padding-bottom: 30px;
+  }
+  
+  .main__About h2 {
+    padding-top: 50px;
+    margin-left: 109px;
+    font-size: 34px;
+    line-height: 45px;
+  }
+  
+  .main__About p {
+    font-size: 15px;
+    line-height: 22px;
+    width: 316px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 75px;
+    text-align: center;
+  }
+  
+  /* Skills */
+  
+  .Skills {
+    height: auto;
+    width: 375px;
+    padding-top: 81px;
+    padding-bottom: 50px;
+  }
+  
+  .Skills h2 {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+  }
+  .Skills p {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .skills__Icons {
+    width: 52px;
+    height: 52px;
+  }
+  
+  .skills__Wrapper {
+    text-align: center;
+    margin-top: 83px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+  
+  .skills__Wrapper p{
+    font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  }
+  
+  /* Portfolio */
+  
+  .portfolio{
+    height: auto;
+    width: 375px;
+    background: #F6F6F6;
+    padding-bottom: 50px;
+  }
+  
+  .portfolio h2{
+    text-align: center;
+    padding-top: 92px;
+    font-size: 35px;
+  line-height: 42px;
+  }
+  
+  .Portfolio__Grid{
+    margin-top: 47px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  
+  .Portfolio__Grid h3{
+    margin-top: 24px;
+    font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  }
+  
+  .portfolioImg{
+    margin-top: 10px;
+   width: 316px;
+    height: 171px;
+    border-radius: 10px;
+  }
+  
+  
+  /* Contacts */
+  
+  .Contacts{
+    margin-top: 54px;
+    width: 375px;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  
+  .Contacts h2{
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+  }
+  
+  .Contacts p{
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+  }
+  
+  .Contacts address{
+    margin-top: 19px;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .Contacts h5{
+    margin-top: 19px;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: 100;
+  }
+  
+  .messagers{
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 55px;
+  }
+  
+  .contactIcons{
+    width: 25px;
+    height: 25px;
+  }
+}
