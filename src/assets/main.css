@@ -254,6 +254,16 @@ text-decoration-line: underline;
 
 @media only screen and (max-width: 600px) {
 
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Roboto Slab";
+  }
+
+  
+
   .langChanger{
    margin: 0 auto;
    display: none;
@@ -271,6 +281,7 @@ text-decoration-line: underline;
   #app {
     width: 375px;
     margin: 0 auto;
+    overflow-x: hidden;
   }
   
   .header {
@@ -282,11 +293,11 @@ text-decoration-line: underline;
     display: none;
     margin: 0 auto;
     margin-top: 32px;
-    width: 941px;
+    width: 345px;
     height: 56px;
     display: flex;
     flex-direction: row;
-    gap: 218px;
+    gap: 102px;
   }
   
   .linker{
