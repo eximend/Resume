@@ -42,4 +42,22 @@ h4 {
   font-size: 16px;
   margin-top: -40px;
 }
+
+@media only screen and (max-width: 600px) {
+  h1{
+  margin-top: 0px;
+  margin-left: 10px;
+  text-align: center;
+  height: 50px;
+}
+
+h4 {
+  height: 55px;
+  font-size: 16px;
+  margin-left: 26px;
+  margin-top: 23px;
+}
+
+
+}
 </style>

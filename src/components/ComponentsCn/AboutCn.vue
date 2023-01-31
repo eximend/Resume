@@ -21,11 +21,17 @@ export default {
 </script>
 
 <style scoped>
-.main__About h2 {
+
+
+@media only screen and (max-width: 600px) {
+    .main__About h2 {
   padding-top: 60px;
-  margin-left: 680px;
+  margin-left: 139px;
   font-size: 34px;
   line-height: 45px;
+}
+
+
 }
 
 </style>
