@@ -45,17 +45,17 @@ h4 {
 
 @media only screen and (max-width: 600px) {
   h1{
-  margin-top: 0px;
+    margin-top: 59px;
   margin-left: 10px;
   text-align: center;
-  height: 50px;
+  height: 60px;
 }
 
 h4 {
-  height: 55px;
+  height: 45px;
   font-size: 16px;
   margin-left: 26px;
-  margin-top: 23px;
+  margin-top: 21px;
 }
 
 

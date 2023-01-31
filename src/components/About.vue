@@ -19,11 +19,5 @@ export default {
     }
 }
 </script>
-<style  scoped>
-     .main__About {
-    width: 375px;
-    background: #f6f6f6;
-    border-radius: 5px;
-    padding-bottom: 30px;
-  }
+<style >
 </style>

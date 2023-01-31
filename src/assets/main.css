@@ -9,6 +9,7 @@
 }
 
 .langChanger{
+  width: 150px;
   position: absolute;
   top: 175px;
   left: 1146px;
@@ -52,6 +53,7 @@
 }
 
 .linker{
+  width: 100px;
   position: absolute;
   color: #828282;
   font-size: 18px;
@@ -262,11 +264,9 @@ text-decoration-line: underline;
     font-family: "Roboto Slab";
   }
 
-  
-
   .langChanger{
     position: absolute;
-    top: 100px;
+    top: 65px;
     left: 250px;
     width: 200px;
    /* display: none; */
@@ -289,18 +289,11 @@ text-decoration-line: underline;
   
   .header {
     width: 375px;
-    height: 736px;
+    height: 706px;
   }
   
   .header__ul {
     display: none;
-    margin: 0 auto;
-    margin-top: 32px;
-    width: 345px;
-    height: 56px;
-    display: flex;
-    flex-direction: row;
-    gap: 102px;
   }
   
   .linker{
@@ -316,7 +309,7 @@ text-decoration-line: underline;
   
   h1 {
     margin-left: 26px;
-    margin-top: 65px;
+    margin-top: 35px;
     width: 124px;
   }
   
